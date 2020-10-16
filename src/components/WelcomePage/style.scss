@@ -14,17 +14,21 @@
             border: none;
             color: #ffc22f;
             margin-bottom: 40px;
+            transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+        }
+        input:hover {
+            border: 1px solid #ffc22f;
         }
         .avatar {
             margin-bottom: 54px;
             display: flex;
             justify-content: center;
+            transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
             .ant-upload.ant-upload-select.ant-upload-select-picture-card {
                 width: 150px;
                 height: 150px;
                 border-radius: 10px;
                 background: #333333;
-                color: white;
                 outline: none;
                 border: none;
                 img {
@@ -34,6 +38,10 @@
                     border: none;
                     outline: none;
                 }
+            }
+            .ant-upload.ant-upload-select.ant-upload-select-picture-card:hover {
+                border: 1px solid #ffc22f;
+                color: #ffffff;
             }
         }
     }

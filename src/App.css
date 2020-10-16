@@ -1,7 +1,8 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    background: #171b1d !important;
+    background: #151522 !important;
+    font-family: 'Red Hat Display', sans-serif;
 }
 .container {
     margin: 0 auto;
@@ -15,7 +16,7 @@ body {
 button.normal-btn {
     background: #ffc22f;
     border-radius: 5px;
-    width: 325px;
+    width: 100%;
     height: 50px;
     outline: none;
     font-size: 16px;
@@ -26,6 +27,7 @@ button.normal-btn {
     transition: 0.5s;
     box-shadow: 1px 1px 4px #7a7979;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 button.normal-btn:hover {
     background: transparent;
@@ -58,10 +60,4 @@ h4 {
     line-height: 34px;
     color: #e0e0e0 !important;
     margin: 20px auto !important;
-}
-
-@media screen and (max-width: 576px) {
-    button.normal-btn {
-        width: 100%;
-    }
 }

@@ -13,9 +13,8 @@ export default class SignIn extends React.Component {
                             <p className="txt-wcback">Welcome back!</p>
 
                             <input type="text" placeholder="Email" name="email" required />
-                            <br />
+
                             <input type="password" placeholder="Password" name="psw" required />
-                            <br />
 
                             <div className="clearfix">
                                 <button type="submit" className="signupbtn normal-btn">

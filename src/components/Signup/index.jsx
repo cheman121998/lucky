@@ -15,9 +15,9 @@ export default class SignUp extends React.Component {
                             </p>
 
                             <input type="text" placeholder="Email" name="email" required />
-                            <br />
+
                             <input type="password" placeholder="Password" name="psw" required />
-                            <br />
+
                             <input
                                 type="password"
                                 placeholder="Confirm Password"
