@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lucky/static/css/main.5b92b7f1.chunk.css",
-    "main.js": "/lucky/static/js/main.45303251.chunk.js",
-    "main.js.map": "/lucky/static/js/main.45303251.chunk.js.map",
+    "main.js": "/lucky/static/js/main.ccb453d6.chunk.js",
+    "main.js.map": "/lucky/static/js/main.ccb453d6.chunk.js.map",
     "runtime-main.js": "/lucky/static/js/runtime-main.ff9b356a.js",
     "runtime-main.js.map": "/lucky/static/js/runtime-main.ff9b356a.js.map",
     "static/css/2.197c6bd2.chunk.css": "/lucky/static/css/2.197c6bd2.chunk.css",
     "static/js/2.0a7dde73.chunk.js": "/lucky/static/js/2.0a7dde73.chunk.js",
     "static/js/2.0a7dde73.chunk.js.map": "/lucky/static/js/2.0a7dde73.chunk.js.map",
     "index.html": "/lucky/index.html",
-    "precache-manifest.81b5ca5c0cfb7dc566f8aa59d1be9954.js": "/lucky/precache-manifest.81b5ca5c0cfb7dc566f8aa59d1be9954.js",
+    "precache-manifest.a16b36c8ad51d730ed3900f4ac25fff0.js": "/lucky/precache-manifest.a16b36c8ad51d730ed3900f4ac25fff0.js",
     "service-worker.js": "/lucky/service-worker.js",
     "static/css/2.197c6bd2.chunk.css.map": "/lucky/static/css/2.197c6bd2.chunk.css.map",
     "static/css/main.5b92b7f1.chunk.css.map": "/lucky/static/css/main.5b92b7f1.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.197c6bd2.chunk.css",
     "static/js/2.0a7dde73.chunk.js",
     "static/css/main.5b92b7f1.chunk.css",
-    "static/js/main.45303251.chunk.js"
+    "static/js/main.ccb453d6.chunk.js"
   ]
 }
