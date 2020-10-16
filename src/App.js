@@ -14,7 +14,7 @@ import Playing from './components/Playing';
 
 function App() {
     return (
-        <Router>
+        <Router basename="cheman121998.github.io/">
             <div className="App">
                 <Switch>
                     <Route path="/" exact component={SignIn} />
