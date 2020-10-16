@@ -9,7 +9,7 @@ import SignUp from './components/Signup';
 import WelcomePage from './components/WelcomePage';
 import SignIn from './components/Signin';
 import Homepage from './components/Homepage';
-//import SearchPlayer from './components/Search';
+import SearchPlayer from './components/Search';
 import Playing from './components/Playing';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
                     <Route path="/Signup" component={SignUp} />
                     <Route path="/welcomepage" component={WelcomePage} />
                     <Route path="/homepage" component={Homepage} />
-                    {/* <Route path="/searchplayer" component={SearchPlayer} /> */}
+                    <Route path="/searchplayer" component={SearchPlayer} />
                     <Route path="/playing" component={Playing} />
                 </Switch>
             </div>
