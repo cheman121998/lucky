@@ -14,7 +14,8 @@ import Playing from './components/Playing';
 
 function App() {
     return (
-        <BrowserRouter basename="cheman121998.github.io">
+        // basename="cheman121998.github.io"
+        <BrowserRouter basename="/lucky">
             <div className="App">
                 <Switch>
                     <Route path="/" exact component={SignIn} />
