@@ -1,8 +1,7 @@
-#signin {
+.signin {
     .modal-content {
         .container {
             .form-signin {
-                width: 100%;
                 p.txt-wcback {
                     font-style: normal;
                     font-weight: 300;
@@ -11,23 +10,24 @@
                     color: #999999;
                     margin-bottom: 32px;
                 }
-                p.txt-donthave {
+                .txt-donthave {
                     color: #ffc22f;
                     font-size: 12px;
                     line-height: 13px;
                     font-weight: 400;
                     opacity: 0.7;
                 }
-                p.txt-donthave:hover {
+                .txt-donthave:hover {
                     text-decoration: underline;
                 }
                 input {
+                    background: #333333;
                     border-radius: 5px;
-                    border: 1px solid #e4e4e4;
+                    border: none;
                     outline: none;
                     height: 50px;
                     width: 100%;
-                    margin-bottom: 15px;
+                    margin-bottom: 30px;
                     padding: 0 20px;
                     color: #ffc22f;
                     font-weight: 300;
@@ -35,7 +35,7 @@
                     transition: 0.3s;
                 }
                 input:hover {
-                    box-shadow: 1px 3px 8px;
+                    box-shadow: 1px 2px 4px;
                 }
 
                 ::placeholder {

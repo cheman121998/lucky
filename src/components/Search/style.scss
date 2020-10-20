@@ -1,11 +1,12 @@
 .search-player {
+    width: 100% !important;
     overflow: hidden;
     .container {
         .search {
             background: #333333;
             border-radius: 5px;
             height: 50px;
-            width: 100%;
+            width: 94%;
             display: flex;
             align-items: center;
             margin: 32px auto;
@@ -43,12 +44,12 @@
                 background: #333333;
                 border-radius: 10px;
                 text-align: left;
-                margin-bottom: 30px;
+                margin: 30px auto;
                 cursor: pointer;
                 transition: 0.5s;
                 img {
                     width: 100%;
-                    height: 120px;
+                    height: 150px;
                     border-radius: 10px;
                     object-fit: cover;
                 }
@@ -75,12 +76,35 @@
         }
     }
 }
+.ant-modal-content {
+    button {
+        display: none;
+    }
+}
+.ant-modal-footer {
+    display: none;
+}
+.ant-modal {
+    width: 100% !important;
+    height: 100vh !important;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    .ant-modal-content {
+        background: #151522;
+    }
+}
+.ant-modal-wrap,
+.ant-image-preview-wrap {
+    background: #151522;
+}
 
 @media screen and (max-width: 576px) {
     .search-player {
         .container {
             .group-card {
                 .search-card {
+                    height: 80%;
                     img {
                         height: 80px;
                     }

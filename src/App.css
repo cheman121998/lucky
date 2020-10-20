@@ -3,6 +3,7 @@ body {
     margin: 0;
     background: #151522 !important;
     font-family: 'Red Hat Display', sans-serif;
+    overflow: hidden;
 }
 .container {
     margin: 0 auto;
@@ -60,4 +61,12 @@ h4 {
     line-height: 34px;
     color: #e0e0e0 !important;
     margin: 20px auto !important;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 60px;
+        line-height: 100px;
+        margin-top: 0px !important;
+    }
 }

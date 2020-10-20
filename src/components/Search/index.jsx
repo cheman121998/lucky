@@ -3,7 +3,6 @@ import './style.scss';
 import { SearchOutlined } from '@ant-design/icons';
 //import { Col } from 'antd';
 import { dataTimeActive } from '../../api/Data';
-
 const ListCard = ({ title, timeActive, image }) => (
     <div className="search-card">
         <img alt="img" src={image} />
