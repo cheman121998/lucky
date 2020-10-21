@@ -31,9 +31,8 @@ button.normal-btn {
     cursor: pointer;
 }
 button.normal-btn:hover {
-    background: transparent;
+    opacity: 0.8;
     border: 1px solid #ffffff;
-    color: #ffc22f;
 }
 
 h1 {

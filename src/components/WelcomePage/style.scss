@@ -39,6 +39,16 @@
                     outline: none;
                 }
             }
+            span.ant-upload {
+                color: white;
+                .ant-upload {
+                    input {
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
             .ant-upload.ant-upload-select.ant-upload-select-picture-card:hover {
                 border: 1px solid #ffc22f;
                 color: #ffffff;

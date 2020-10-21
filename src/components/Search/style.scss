@@ -40,7 +40,7 @@
 
             .search-card {
                 width: 90%;
-                height: 90%;
+                height: auto;
                 background: #333333;
                 border-radius: 10px;
                 text-align: left;
@@ -59,7 +59,7 @@
                     line-height: 22px;
                     color: #e0e0e0;
                     padding-left: 15px;
-                    margin: 4px 0;
+                    margin: 8px 0;
                 }
                 .card-time-active {
                     font-style: normal;
@@ -68,6 +68,7 @@
                     line-height: 18px;
                     color: #999999;
                     padding-left: 15px;
+                    padding-bottom: 8px;
                 }
             }
             .search-card:hover {
@@ -104,13 +105,15 @@
         .container {
             .group-card {
                 .search-card {
-                    height: 80%;
+                    height: auto;
+                    margin: 5px auto;
                     img {
                         height: 80px;
                     }
                     .title {
                         font-size: 15px;
                         padding-left: 5px;
+                        margin: 4px 0;
                     }
                     .card-time-active {
                         font-size: 10px;
